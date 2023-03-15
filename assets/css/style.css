@@ -37,3 +37,49 @@ aside {
 aside a {
     color: white;
 }
+
+/* MAIN */
+main #header-main .bg-badge-main {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* MAIN - Head */
+main #header-main {
+    background-color: #1b72e8;
+}
+/* Head - nuovo studente */
+#header-main #nuovo-studente > a {
+    width: 30px;
+    height: 30px;
+}
+
+/* MAIN - Body */
+
+/* Body - prossime classi */
+main #prossime-classi {
+    font-size: smaller;
+}
+
+/* Body - prossime classi - tabella annidata */
+main #prossime-classi table tbody tr td .icona-classe::before {
+    content: "\003C\002F\003E";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    color: white;
+    background-color: #f26551;    
+}
+
+main #prossime-classi .container #table-father > tbody {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+main #prossime-classi table .fa-solid {
+    cursor: pointer;
+}
+

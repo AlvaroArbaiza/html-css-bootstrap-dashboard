@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <!-- header -->
+    <!-- HEADER -->
     <header class="container-fluid d-flex align-items-center">
             
         <div class="row justify-content-between align-items-center">
@@ -59,7 +59,7 @@
 
         <div class="row">
 
-            <!-- sidebar -->
+            <!-- ASIDE -->
             <aside class="col-2 d-flex flex-column align-items-center justify-content-between py-4">
    
                 <!-- top -->
@@ -96,29 +96,201 @@
                 
             </aside>
     
-            <!-- main -->
-            <main class="col-10 bg-primary">
+            <!-- MAIN -->
+            <main class="col-10 p-0 overflow-y-auto bg-body-tertiary">
     
-                <div>
-    
-                    <!-- head -->
-                    <div></div>
-    
-                    <!-- body -->
-                    <div>
-    
-                        <!-- prossime classi -->
-                        <div></div>
-    
-                        <!-- F.A.Q. -->
-                        <div></div>
-    
-                        <!-- todolist -->
-                        <div></div>
-    
-                        <!-- card grafico -->
+                <!-- head -->
+                <section id="header-main" class="text-white d-flex flex-column py-3 px-2 gap-3">
+
+                    <!-- nuovo studente -->
+                    <div id="nuovo-studente">
+                        <h6 class="d-inline-block">Nuovo Studente</h6>
+                        <a class="d-inline-block text-center align-middle text-white text-decoration-none rounded border border-white ms-2" href="#">+</a>
                     </div>
+
+                    <!-- boolean -->
+                    <div>
+
+                        <div>
+                            <h1 class="d-inline-block fs-2">Boolean</h1>
+                            <span class="badge rounded-pill bg-badge-main">Piano blaze</span>
+                        </div>
+
+                        <div>
+                            <span class="badge rounded-pill bg-badge-main">3 app</span>
+                            <span>&#8811;</span>
+                            <span class="badge rounded-pill bg-badge-main">+</span>
+                        </div>
+                    </div>
+
+                    <!-- studenti online -->
+                    <div>
+                        <span class="d-block">Studenti online negli ultimi 30 minuti</span>
+                        <span class="fs-2">125</span>
+                    </div>
+                </section>
+
+                <!-- body -->
+                <div>
+
+                    <!-- prossime classi -->
+                    <section id="prossime-classi" class="py-3">
+
+                        <div class="container">
+
+                            <!-- tabella -->
+                            <table id="table-father" class="table table-bordered border border-dark-subtle">
+                                
+                                <thead class="bg-body-secondary">
+                                    <tr>
+                                        <th>
+                                            <h2 class="fs-4">Prossime classi</h2>
+                                        </th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>
+
+                                            <!-- tabella annidata -->
+                                            <table class="table border-dark-subtle">
+
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">Nome</th>
+                                                    <th scope="col">Stato</th>
+                                                    <th scope="col">Azioni</th>
+                                                    
+                                                  </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                  <tr>
+                                                    <td>                                                        
+                                                        <span class="icona-classe fw-semibold ms-1">Classe 75</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa-solid fa-pencil border border-1 rounded border-dark p-2"></i>
+                                                        <i class="fa-solid fa-trash border border-1 rounded border-dark p-2"></i>
+                                                    </td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>                                                        
+                                                        <span class="icona-classe fw-semibold ms-1">Classe 76</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa-solid fa-pencil border border-1 rounded border-dark p-2"></i>
+                                                        <i class="fa-solid fa-trash border border-1 rounded border-dark p-2"></i>
+                                                    </td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>                                                        
+                                                        <span class="icona-classe fw-semibold ms-1">Classe 77</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge text-bg-warning text-white">process</span>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa-solid fa-pencil border border-1 rounded border-dark p-2"></i>
+                                                        <i class="fa-solid fa-trash border border-1 rounded border-dark p-2"></i>
+                                                    </td>
+                                                  </tr>
+                                                  
+                                                  <tr>
+                                                    <td>                                                        
+                                                        <span class="icona-classe fw-semibold ms-1">Classe 78</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa-solid fa-pencil border border-1 rounded border-dark p-2"></i>
+                                                        <i class="fa-solid fa-trash border border-1 rounded border-dark p-2"></i>
+                                                    </td>
+                                                  </tr>
+                                                  
+                                                  <tr>
+                                                    <td>                                                        
+                                                        <span class="icona-classe fw-semibold ms-1">Classe 79</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge text-bg-danger">failed</span>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa-solid fa-pencil border border-1 rounded border-dark p-2"></i>
+                                                        <i class="fa-solid fa-trash border border-1 rounded border-dark p-2"></i>
+                                                    </td>
+                                                  </tr>
+                                                  
+                                                  <tr>
+                                                    <td>                                                        
+                                                        <span class="icona-classe fw-semibold ms-1">Classe 80</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa-solid fa-pencil border border-1 rounded border-dark p-2"></i>
+                                                        <i class="fa-solid fa-trash border border-1 rounded border-dark p-2"></i>
+                                                    </td>
+                                                  </tr>
+                                                  
+                                                  <tr>
+                                                    <td>                                                        
+                                                        <span class="icona-classe fw-semibold ms-1">Classe 81</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge text-bg-danger">failed</span>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa-solid fa-pencil border border-1 rounded border-dark p-2"></i>
+                                                        <i class="fa-solid fa-trash border border-1 rounded border-dark p-2"></i>
+                                                    </td>
+                                                  </tr>
+                                                  
+                                                  <tr>
+                                                    <td>                                                        
+                                                        <span class="icona-classe fw-semibold ms-1">Classe 82</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa-solid fa-pencil border border-1 rounded border-dark p-2"></i>
+                                                        <i class="fa-solid fa-trash border border-1 rounded border-dark p-2"></i>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </section>
+
+                    <!-- F.A.Q. -->
+                    <section></section>
+
+                    <!-- todolist -->
+                    <section></section>
+
+                    <!-- card grafico -->
                 </div>
+                
             </main>
         </div>
     </div>
