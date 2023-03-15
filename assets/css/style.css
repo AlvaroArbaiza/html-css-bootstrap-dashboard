@@ -1,0 +1,39 @@
+/* LAYOUT */
+
+header {
+    width: 100vw;
+    height: 60px;
+}
+
+#container-sbar-main,
+aside,
+main {
+    height: calc(100vh - 60px)
+}
+
+
+/* HEADER */
+
+/* barra di ricerca */
+header input#exampleDataList {
+    background-color: #e5e5e5;
+    font-size: small;
+}
+header input#exampleDataList::placeholder {
+    font-size: 0.9rem
+}
+
+/* campanello */
+header i.fa-bell {
+    color: #ff8f00;
+}
+
+/* ASIDE */
+aside {
+    background: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+}
+
+aside a {
+    color: white;
+}

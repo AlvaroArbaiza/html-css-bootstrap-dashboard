@@ -18,88 +18,109 @@
 </head>
 <body>
 
-    <!-- container webapp -->
-    <div>
-        
-        <!-- header -->
-        <header>
+    <!-- header -->
+    <header class="container-fluid d-flex align-items-center">
             
-            <div class="container">
-                
-                <div class="row">
+        <div class="row justify-content-between align-items-center">
 
-                    <!-- logo -->
-                    <div class="col">
+            <!-- logo -->
+            <div class="col-2">
 
-                        <img src="./assets/img/logo.svg" alt="Logo Boolean">
-                    </div>
-        
-                    <!-- barra di ricerca -->
-                    <div class="col">
-                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="&#128269; Prova a cercare: Lezioni di Laravel">
-                        <datalist id="datalistOptions">
-                            <option value="Lezioni di Bootstrap">
-                            <option value="Lezioni di HTML">
-                            <option value="Lezioni di CSS">
-                            <option value="Lezioni di Laravel">
-                            <option value="Lezioni di PHP">
-                            <option value="Lezioni di React">
-                            <option value="Lezioni di VueJs">
-                            <option value="Lezioni di JavaScript">
-                            <option value="Lezioni di MySQL">
-                            <option value="Lezioni di Python">
-                        </datalist>
-                    </div>
-        
-                    <!-- campanello -->
-                    <div class="col">
-                        <i class="fa-solid fa-bell"></i>
-                    </div>
-                </div>
+                <img class="img-fluid" src="./assets/img/mobile-logo.png" alt="Logo Boolean">
             </div>
 
-        </header>
+            <!-- barra di ricerca -->
+            <div class="col-9">
+                <input class="form-control fs-6" list="datalistOptions" id="exampleDataList" placeholder="&#128269; Prova a cercare: Lezioni di Laravel">
+                <datalist id="datalistOptions">
+                    <option value="Lezioni di Bootstrap">
+                    <option value="Lezioni di HTML">
+                    <option value="Lezioni di CSS">
+                    <option value="Lezioni di Laravel">
+                    <option value="Lezioni di PHP">
+                    <option value="Lezioni di React">
+                    <option value="Lezioni di VueJs">
+                    <option value="Lezioni di JavaScript">
+                    <option value="Lezioni di MySQL">
+                    <option value="Lezioni di Python">
+                </datalist>
+            </div>
 
-        <!-- sidebar -->
-        <aside>
+            <!-- campanello -->
+            <div class="col-1">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+        </div>
+        
 
-            <div>
+    </header>
 
+    <div id="container-sbar-main" class="container-fluid">
+
+        <div class="row">
+
+            <!-- sidebar -->
+            <aside class="col-2 d-flex flex-column align-items-center justify-content-between py-4">
+   
                 <!-- top -->
-                <div></div>                
+                <div class="d-flex flex-column justify-content-between gap-3">
+
+                    <!-- home -->
+                    <a href="#">
+
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+
+                    <!-- chart -->
+                    <a href="#">
+
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </a>
+
+                    <!-- signal -->
+                    <a href="#">
+
+                        <i class="fa-solid fa-signal"></i>
+                    </a>
+                </div>                
 
                 <!-- bottom -->
-                <div></div>
-            </div>
-
-        </aside>
-
-        <!-- main -->
-        <main>
-
-            <div>
-
-                <!-- head -->
-                <div></div>
-
-                <!-- body -->
                 <div>
 
-                    <!-- prossime classi -->
-                    <div></div>
+                    <!-- impostazioni -->
+                    <a href="#">
 
-                    <!-- F.A.Q. -->
-                    <div></div>
-
-                    <!-- todolist -->
-                    <div></div>
-
-                    <!-- card grafico -->
+                        <i class="fa-solid fa-gear"></i>
+                    </a>
                 </div>
-            </div>
-        </main>
-
-
+                
+            </aside>
+    
+            <!-- main -->
+            <main class="col-10 bg-primary">
+    
+                <div>
+    
+                    <!-- head -->
+                    <div></div>
+    
+                    <!-- body -->
+                    <div>
+    
+                        <!-- prossime classi -->
+                        <div></div>
+    
+                        <!-- F.A.Q. -->
+                        <div></div>
+    
+                        <!-- todolist -->
+                        <div></div>
+    
+                        <!-- card grafico -->
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
     
     <!-- Bootstrap -->
