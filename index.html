@@ -155,7 +155,7 @@
                             &#43;
                         </a>
 
-                        <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas offcanvas-end text-start w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                             
                             <!-- header -->
                             <div class="offcanvas-header">
@@ -295,396 +295,402 @@
                 </section>
 
                 <!-- body -->
-                <div class="d-flex flex-column py-3 px-2 gap-3">
+                <div class="row py-3 px-2 g-3">
 
-                    <!-- prossime classi -->
-                    <section id="prossime-classi">
+                    <div class="col-12 col-lg-8 d-flex flex-column gap-3">
 
-                        <!-- table -->
-                        <table id="tbl-prossime-classi" class="table table-bordered border border-dark-subtle mb-0">
-                            
-                            <!-- head -->
-                            <thead class="bg-body-secondary">
-                                <tr>
-                                    <th>
-                                        <h2 class="fs-4">Prossime classi</h2>
-                                    </th>
-                                </tr>
-                            </thead>
-
-                            <!-- body -->
-                            <tbody class="bg-white">
-                                <tr>
-                                    <td>
-
-                                        <!-- nested table -->
-                                        <table class="table border-dark-subtle table-hover">
-
-                                            <thead>
-                                                <tr>
-                                                    <th class="w-50" scope="col">Nome</th>
-                                                    <th scope="col" class="d-none d-sm-table-cell">Data inizio</th>
-                                                    <th scope="col" class="d-none d-sm-table-cell text-uppercase">roi</th>
-                                                    <th scope="col">Stato</th>
-                                                    <th scope="col">Azioni</th>
-                                                </tr>
-                                            </thead>
-
-                                            <tbody>
-
-                                                <tr>
-                                                    <!-- nome -->
-                                                    <td>                                                        
-                                                        <span class="icona-classe fw-semibold ms-1">Classe 75</span>
-                                                    </td>
-                                                    <!-- data inizio - hidden on mobile responsive-->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>15 Feb 2021</span>
-                                                    </td>
-                                                    <!-- roi - hidden on mobile responsive -->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20&#37;</span>
-                                                    </td>
-                                                    <!-- stato -->
-                                                    <td>
-                                                        <span class="badge text-bg-success">Done</span>
-                                                    </td>
-                                                    <!-- azione -->
-                                                    <td>
-                                                        <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                        <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <!-- nome -->
-                                                    <td>                                                        
-                                                        <span class="icona-classe fw-semibold ms-1">Classe 76</span>
-                                                    </td>
-                                                    <!-- data inizio - hidden on mobile responsive-->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>16 Feb 2021</span>
-                                                    </td>
-                                                    <!-- roi - hidden on mobile responsive -->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20&#37;</span>
-                                                    </td>
-                                                    <!-- stato -->
-                                                    <td>
-                                                        <span class="badge text-bg-success">Done</span>
-                                                    </td>
-                                                    <!-- azione -->
-                                                    <td>
-                                                        <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                        <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <!-- nome -->
-                                                    <td>                                                        
-                                                        <span class="icona-classe fw-semibold ms-1">Classe 77</span>
-                                                    </td>
-                                                    <!-- data inizio - hidden on mobile responsive-->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>17 Feb 2021</span>
-                                                    </td>
-                                                    <!-- roi - hidden on mobile responsive -->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20&#37;</span>
-                                                    </td>
-                                                    <!-- stato -->
-                                                    <td>
-                                                        <span class="badge text-bg-warning text-white">process</span>
-                                                    </td>
-                                                    <!-- azione -->
-                                                    <td>
-                                                        <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                        <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                    </td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <!-- nome -->
-                                                    <td>                                                        
-                                                        <span class="icona-classe fw-semibold ms-1">Classe 78</span>
-                                                    </td>                                                    
-                                                    <!-- data inizio - hidden on mobile responsive-->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>18 Feb 2021</span>
-                                                    </td>
-                                                    <!-- roi - hidden on mobile responsive -->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20&#37;</span>
-                                                    </td>
-                                                    <!-- stato -->
-                                                    <td>
-                                                        <span class="badge text-bg-success">Done</span>
-                                                    </td>
-                                                    <!-- azione -->
-                                                    <td>
-                                                        <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                        <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                    </td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <!-- nome -->
-                                                    <td>                                                        
-                                                        <span class="icona-classe fw-semibold ms-1">Classe 79</span>
-                                                    </td>                                                    
-                                                    <!-- data inizio - hidden on mobile responsive-->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>19 Feb 2021</span>
-                                                    </td>
-                                                    <!-- roi - hidden on mobile responsive -->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20&#37;</span>
-                                                    </td>
-                                                    <!-- stato -->
-                                                    <td>
-                                                        <span class="badge text-bg-danger">failed</span>
-                                                    </td>
-                                                    <!-- azione -->
-                                                    <td>
-                                                        <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                        <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                    </td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <!-- nome -->
-                                                    <td>                                                        
-                                                        <span class="icona-classe fw-semibold ms-1">Classe 80</span>
-                                                    </td>                                                    
-                                                    <!-- data inizio - hidden on mobile responsive-->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20 Feb 2021</span>
-                                                    </td>
-                                                    <!-- roi - hidden on mobile responsive -->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20&#37;</span>
-                                                    </td>
-                                                    <!-- stato -->
-                                                    <td>
-                                                        <span class="badge text-bg-success">Done</span>
-                                                    </td>
-                                                    <!-- azione -->
-                                                    <td>
-                                                        <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                        <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                    </td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <!-- nome -->
-                                                    <td>                                                        
-                                                        <span class="icona-classe fw-semibold ms-1">Classe 81</span>
-                                                    </td>                                                    
-                                                    <!-- data inizio - hidden on mobile responsive-->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>21 Feb 2021</span>
-                                                    </td>
-                                                    <!-- roi - hidden on mobile responsive -->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20&#37;</span>
-                                                    </td>
-                                                    <!-- stato -->
-                                                    <td>
-                                                        <span class="badge text-bg-danger">failed</span>
-                                                    </td>
-                                                    <!-- azione -->
-                                                    <td>
-                                                        <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                        <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                    </td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <!-- nome -->
-                                                    <td>                                                        
-                                                        <span class="icona-classe fw-semibold ms-1">Classe 82</span>
-                                                    </td>                                                    
-                                                    <!-- data inizio - hidden on mobile responsive-->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>22 Feb 2021</span>
-                                                    </td>
-                                                    <!-- roi - hidden on mobile responsive -->
-                                                    <td class="d-none d-sm-table-cell fw-semibold">
-                                                        <span>20&#37;</span>
-                                                    </td>
-                                                    <!-- stato -->
-                                                    <td>
-                                                        <span class="badge text-bg-success">Done</span>
-                                                    </td>
-                                                    <!-- azione -->
-                                                    <td>
-                                                        <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                        <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-
-                        </table>
-                    </section>
-
-                    <!-- F.A.Q. -->
-                    <section id="f_a_q" >
-
-                        <!-- table -->
-                        <table id="tbl-f_a_q" class="table table-bordered border border-dark-subtle mb-0">
-                            
-                            <thead class="bg-body-secondary">
-                                <tr>
-                                    <th>
-                                        <h2 class="fs-4 text-uppercase">f.a.q.</h2>
-                                    </th>
-                                </tr>
-                            </thead>
-
-                            <tbody class="bg-white">
-                                <tr>
-                                    <td>
-
-                                        <!-- answer and questions -->
-                                        <div class="accordion accordion-flush" id="accordionFlushExample">
-
-                                            <div class="accordion-item">
-
-                                              <h2 class="accordion-header" id="flush-headingOne">
-                                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                  Come aggiungere un nuovo studente&#63;
-                                                </button>
-                                              </h2>
-
-                                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">
-                                                    <p>
-                                                        Clicca sul &#43; in alto nella sezione blu.&#42;
-                                                    </p>
-                                                </div>
-                                              </div>
-                                            </div>
-
-                                            <div class="accordion-item">
-
-                                              <h2 class="accordion-header" id="flush-headingTwo">
-                                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Come posso accedere alle informazioni del mio account&#63;
-                                                </button>
-                                              </h2>
-
-                                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">
-                                                    <p>
-                                                        Clicca sull'icona della campanella.
-                                                    </p>
-                                                </div>
-                                              </div>
-                                            </div>
-                                            <div class="accordion-item">
-
-                                              <h2 class="accordion-header" id="flush-headingThree">
-                                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Posso usare questa dashboard da mobile&#63;
-                                                </button>
-                                              </h2>
-                                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magni sint iusto laborum mollitia velit id porro, facere ullam in accusamus eligendi adipisci, quaerat veniam&#33; Amet eum consequuntur voluptatibus alias&#63;
-                                                    </p>
-                                                </div>
-                                              </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-
-
-                    </section>
-
-                    <!-- todolist -->
-                    <section id="to-do-list" >
-
-                        <!-- table -->
-                        <table id="tbl-to-do-list" class="table table-bordered border border-dark-subtle mb-0">
-                            
-                            <thead class="bg-body-secondary">
-                                <tr>
-                                    <th>
-                                        <h2 class="fs-4">Todo</h2>
-                                    </th>
-                                </tr>
-                            </thead>
-
-                            <tbody class="bg-white">
-                                <tr>
-                                    <td>
-                                    
-                                        <!-- checkboxes -->
-                                        <div class="border rounded">
-
-                                            <div class="form-check m-0 py-2 ps-4">
-                                                <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label fw-semibold" for="flexCheckDefault">
-                                                    Kickoff nuove classi
-                                                </label>
-                                            </div>
+                        <!-- prossime classi -->
+                        <section id="prossime-classi">
     
-                                            <div class="form-check border-top border-bottom m-0 py-2 ps-4">
-                                                <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckChecked">
-                                                <label class="form-check-label fw-semibold" for="flexCheckChecked">
-                                                    Lezione su Bootstrap 5 in classe &#35;75
-                                                </label>
-                                            </div>
+                            <!-- table -->
+                            <table id="tbl-prossime-classi" class="table table-bordered border border-dark-subtle mb-0">
+                                
+                                <!-- head -->
+                                <thead class="bg-body-secondary">
+                                    <tr>
+                                        <th>
+                                            <h2 class="fs-4">Prossime classi</h2>
+                                        </th>
+                                    </tr>
+                                </thead>
     
-                                            <div class="form-check m-0 py-2 ps-4">
-                                                <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckChecked">
-                                                <label class="form-check-label fw-semibold" for="flexCheckChecked">
-                                                    Controllare username github studenti
-                                                </label>
+                                <!-- body -->
+                                <tbody class="bg-white">
+                                    <tr>
+                                        <td>
+    
+                                            <!-- nested table -->
+                                            <table class="table border-dark-subtle table-hover">
+    
+                                                <thead>
+                                                    <tr>
+                                                        <th class="w-50" scope="col">Nome</th>
+                                                        <th scope="col" class="d-none d-sm-table-cell">Data inizio</th>
+                                                        <th scope="col" class="d-none d-sm-table-cell text-uppercase">roi</th>
+                                                        <th scope="col">Stato</th>
+                                                        <th scope="col">Azioni</th>
+                                                    </tr>
+                                                </thead>
+    
+                                                <tbody>
+    
+                                                    <tr>
+                                                        <!-- nome -->
+                                                        <td>                                                        
+                                                            <span class="icona-classe fw-semibold ms-1">Classe 75</span>
+                                                        </td>
+                                                        <!-- data inizio - hidden on mobile responsive-->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>15 Feb 2021</span>
+                                                        </td>
+                                                        <!-- roi - hidden on mobile responsive -->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20&#37;</span>
+                                                        </td>
+                                                        <!-- stato -->
+                                                        <td>
+                                                            <span class="badge text-bg-success">Done</span>
+                                                        </td>
+                                                        <!-- azione -->
+                                                        <td>
+                                                            <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                            <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                        </td>
+                                                    </tr>
+    
+                                                    <tr>
+                                                        <!-- nome -->
+                                                        <td>                                                        
+                                                            <span class="icona-classe fw-semibold ms-1">Classe 76</span>
+                                                        </td>
+                                                        <!-- data inizio - hidden on mobile responsive-->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>16 Feb 2021</span>
+                                                        </td>
+                                                        <!-- roi - hidden on mobile responsive -->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20&#37;</span>
+                                                        </td>
+                                                        <!-- stato -->
+                                                        <td>
+                                                            <span class="badge text-bg-success">Done</span>
+                                                        </td>
+                                                        <!-- azione -->
+                                                        <td>
+                                                            <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                            <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                        </td>
+                                                    </tr>
+    
+                                                    <tr>
+                                                        <!-- nome -->
+                                                        <td>                                                        
+                                                            <span class="icona-classe fw-semibold ms-1">Classe 77</span>
+                                                        </td>
+                                                        <!-- data inizio - hidden on mobile responsive-->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>17 Feb 2021</span>
+                                                        </td>
+                                                        <!-- roi - hidden on mobile responsive -->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20&#37;</span>
+                                                        </td>
+                                                        <!-- stato -->
+                                                        <td>
+                                                            <span class="badge text-bg-warning text-white">process</span>
+                                                        </td>
+                                                        <!-- azione -->
+                                                        <td>
+                                                            <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                            <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <!-- nome -->
+                                                        <td>                                                        
+                                                            <span class="icona-classe fw-semibold ms-1">Classe 78</span>
+                                                        </td>                                                    
+                                                        <!-- data inizio - hidden on mobile responsive-->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>18 Feb 2021</span>
+                                                        </td>
+                                                        <!-- roi - hidden on mobile responsive -->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20&#37;</span>
+                                                        </td>
+                                                        <!-- stato -->
+                                                        <td>
+                                                            <span class="badge text-bg-success">Done</span>
+                                                        </td>
+                                                        <!-- azione -->
+                                                        <td>
+                                                            <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                            <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <!-- nome -->
+                                                        <td>                                                        
+                                                            <span class="icona-classe fw-semibold ms-1">Classe 79</span>
+                                                        </td>                                                    
+                                                        <!-- data inizio - hidden on mobile responsive-->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>19 Feb 2021</span>
+                                                        </td>
+                                                        <!-- roi - hidden on mobile responsive -->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20&#37;</span>
+                                                        </td>
+                                                        <!-- stato -->
+                                                        <td>
+                                                            <span class="badge text-bg-danger">failed</span>
+                                                        </td>
+                                                        <!-- azione -->
+                                                        <td>
+                                                            <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                            <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <!-- nome -->
+                                                        <td>                                                        
+                                                            <span class="icona-classe fw-semibold ms-1">Classe 80</span>
+                                                        </td>                                                    
+                                                        <!-- data inizio - hidden on mobile responsive-->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20 Feb 2021</span>
+                                                        </td>
+                                                        <!-- roi - hidden on mobile responsive -->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20&#37;</span>
+                                                        </td>
+                                                        <!-- stato -->
+                                                        <td>
+                                                            <span class="badge text-bg-success">Done</span>
+                                                        </td>
+                                                        <!-- azione -->
+                                                        <td>
+                                                            <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                            <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <!-- nome -->
+                                                        <td>                                                        
+                                                            <span class="icona-classe fw-semibold ms-1">Classe 81</span>
+                                                        </td>                                                    
+                                                        <!-- data inizio - hidden on mobile responsive-->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>21 Feb 2021</span>
+                                                        </td>
+                                                        <!-- roi - hidden on mobile responsive -->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20&#37;</span>
+                                                        </td>
+                                                        <!-- stato -->
+                                                        <td>
+                                                            <span class="badge text-bg-danger">failed</span>
+                                                        </td>
+                                                        <!-- azione -->
+                                                        <td>
+                                                            <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                            <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <!-- nome -->
+                                                        <td>                                                        
+                                                            <span class="icona-classe fw-semibold ms-1">Classe 82</span>
+                                                        </td>                                                    
+                                                        <!-- data inizio - hidden on mobile responsive-->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>22 Feb 2021</span>
+                                                        </td>
+                                                        <!-- roi - hidden on mobile responsive -->
+                                                        <td class="d-none d-sm-table-cell fw-semibold">
+                                                            <span>20&#37;</span>
+                                                        </td>
+                                                        <!-- stato -->
+                                                        <td>
+                                                            <span class="badge text-bg-success">Done</span>
+                                                        </td>
+                                                        <!-- azione -->
+                                                        <td>
+                                                            <i class="fa-solid fa-pencil text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                            <i class="fa-solid fa-trash text-dark-emphasis border border-2 rounded border-dark-subtle p-2"></i>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+    
+                                        </td>
+                                    </tr>
+                                </tbody>
+    
+                            </table>
+                        </section>
+    
+                        <!-- F.A.Q. -->
+                        <section id="f_a_q">
+    
+                            <!-- table -->
+                            <table id="tbl-f_a_q" class="table table-bordered border border-dark-subtle mb-0">
+                                
+                                <thead class="bg-body-secondary">
+                                    <tr>
+                                        <th>
+                                            <h2 class="fs-4 text-uppercase">f.a.q.</h2>
+                                        </th>
+                                    </tr>
+                                </thead>
+    
+                                <tbody class="bg-white">
+                                    <tr>
+                                        <td>
+    
+                                            <!-- answer and questions -->
+                                            <div class="accordion accordion-flush" id="accordionFlushExample">
+    
+                                                <div class="accordion-item">
+    
+                                                  <h2 class="accordion-header" id="flush-headingOne">
+                                                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                      Come aggiungere un nuovo studente&#63;
+                                                    </button>
+                                                  </h2>
+    
+                                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        <p>
+                                                            Clicca sul &#43; in alto nella sezione blu.&#42;
+                                                        </p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+    
+                                                <div class="accordion-item">
+    
+                                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                        Come posso accedere alle informazioni del mio account&#63;
+                                                    </button>
+                                                  </h2>
+    
+                                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        <p>
+                                                            Clicca sull'icona della campanella.
+                                                        </p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+    
+                                                  <h2 class="accordion-header" id="flush-headingThree">
+                                                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                        Posso usare questa dashboard da mobile&#63;
+                                                    </button>
+                                                  </h2>
+                                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magni sint iusto laborum mollitia velit id porro, facere ullam in accusamus eligendi adipisci, quaerat veniam&#33; Amet eum consequuntur voluptatibus alias&#63;
+                                                        </p>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+    
+    
+    
+                        </section>
+                    </div>
 
-                    </section>
+                    <div class="col-12 col-lg-4 d-flex flex-column gap-3">
 
-                    <!-- card grafico -->
-                    <section id="card-graph">
-
-                        <!-- card -->
-                        <div class="card">
-
-                            <img src="./assets/img/stats.jpeg" class="card-img-top" alt="stats">
-
-                            <div class="card-body fw-semibold">
-                              <h5 class="card-title">Utenti attivi</h5>
-                              <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
-                            </div>
-
-                            <ul class="list-group list-group-flush fw-semibold">
-                              <li class="list-group-item border-dark-subtle">Gennaio&#58; 1200</li>
-                              <li class="list-group-item border-dark-subtle">Febbraio&#58; 800</li>
-                              <li class="list-group-item border-dark-subtle">Marzo&#58; 1500</li>
-                            </ul>
-
-                            <div class="card-body">
-                              <a href="#" class="card-link fw-semibold">Visualizza report approfondito</a>
-                            </div>
-                          </div>
-                    </section>
+                        <!-- todolist -->
+                        <section id="to-do-list" >
+    
+                            <!-- table -->
+                            <table id="tbl-to-do-list" class="table table-bordered border border-dark-subtle mb-0">
+                                
+                                <thead class="bg-body-secondary">
+                                    <tr>
+                                        <th>
+                                            <h2 class="fs-4">Todo</h2>
+                                        </th>
+                                    </tr>
+                                </thead>
+    
+                                <tbody class="bg-white">
+                                    <tr>
+                                        <td>
+                                        
+                                            <!-- checkboxes -->
+                                            <div class="border rounded">
+    
+                                                <div class="form-check m-0 py-2 ps-4">
+                                                    <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label fw-semibold" for="flexCheckDefault">
+                                                        Kickoff nuove classi
+                                                    </label>
+                                                </div>
+        
+                                                <div class="form-check border-top border-bottom m-0 py-2 ps-4">
+                                                    <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckChecked">
+                                                    <label class="form-check-label fw-semibold" for="flexCheckChecked">
+                                                        Lezione su Bootstrap 5 in classe &#35;75
+                                                    </label>
+                                                </div>
+        
+                                                <div class="form-check m-0 py-2 ps-4">
+                                                    <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckChecked">
+                                                    <label class="form-check-label fw-semibold" for="flexCheckChecked">
+                                                        Controllare username github studenti
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+    
+                        </section>
+    
+                        <!-- card grafico -->
+                        <section id="card-graph">
+    
+                            <!-- card -->
+                            <div class="card">
+    
+                                <img src="./assets/img/stats.jpeg" class="card-img-top" alt="stats">
+    
+                                <div class="card-body fw-semibold">
+                                  <h5 class="card-title">Utenti attivi</h5>
+                                  <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                </div>
+    
+                                <ul class="list-group list-group-flush fw-semibold">
+                                  <li class="list-group-item border-dark-subtle">Gennaio&#58; 1200</li>
+                                  <li class="list-group-item border-dark-subtle">Febbraio&#58; 800</li>
+                                  <li class="list-group-item border-dark-subtle">Marzo&#58; 1500</li>
+                                </ul>
+    
+                                <div class="card-body">
+                                  <a href="#" class="card-link fw-semibold">Visualizza report approfondito</a>
+                                </div>
+                              </div>
+                        </section>
+                    </div>
                 </div>
                 
             </main>

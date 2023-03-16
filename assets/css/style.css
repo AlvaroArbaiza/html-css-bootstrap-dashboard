@@ -86,3 +86,20 @@ main #prossime-classi table .fa-solid {
     cursor: pointer;
 }
 
+main #header-main .offcanvas-end {
+    width: 100%;
+}
+
+/* Offcanvas - responsive after 576px */
+@media only screen and (min-width:768px) {
+    main #header-main .offcanvas-end {
+        width: 50% !important;
+    }
+}
+
+/* Offcanvas - responsive after 576px */
+@media only screen and (min-width:1200px) {
+    main #header-main .offcanvas-end {
+        width: 40% !important;
+    }
+}
