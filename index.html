@@ -21,16 +21,19 @@
     <!-- HEADER -->
     <header class="container-fluid d-flex align-items-center">
             
-        <div class="row justify-content-between align-items-center">
+        <div class="row flex-grow-1 justify-content-between align-items-center">
 
             <!-- logo -->
-            <div class="col-2 col-sm-1">
+            <div class="col-2 col-sm-1 col-md-2">
 
-                <img class="img-fluid" src="./assets/img/mobile-logo.png" alt="Logo Boolean">
+                <img class="img-fluid d-md-none" src="./assets/img/mobile-logo.png" alt="Logo Boolean">
+                
+                <!-- big logo - hidden on mobile and tablet version -->
+                <img class="img-fluid d-none d-md-inline-block" src="./assets/img/logo.svg" alt="Logo Boolean">
             </div>
 
             <!-- search bar -->
-            <div class="col-9 col-sm-10 p-sm-0">
+            <div class="col-9 col-sm-10 col-md-8 p-sm-0">
                 <input class="form-control fs-6" list="datalistOptions" id="exampleDataList" placeholder="&#128269; Prova a cercare: Lezioni di Laravel">
                 <datalist id="datalistOptions">
                     <option value="Lezioni di Bootstrap">
@@ -46,10 +49,25 @@
                 </datalist>
             </div>
 
-            <!-- bell -->
-            <div class="col-1 d-flex justify-content-center">
+            <!-- right side - icons -->
+            <div class="col-1 col-md-2 d-flex justify-content-center justify-content-md-around">
                 
+                <!-- list - hidden on mobile and tablet -->
+                <div class="d-none d-md-block">
+                    <i class="fa-solid fa-list-ul"></i>
+                </div>
 
+                <!-- help - hidden on mobile and tablet -->
+                <div class="d-none d-md-block">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+
+                <!-- options - hidden on mobile and tablet -->
+                <div class="d-none d-md-block">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+                <!-- bell -->
                 <div class="dropdown">
 
                     <a class="text-decoration-none" href="#" data-bs-toggle="dropdown" aria-expanded="false">
@@ -81,44 +99,48 @@
         <div class="row">
 
             <!-- ASIDE -->
-            <aside class="col-2 col-sm-1 d-flex flex-column align-items-center justify-content-between py-4">
+            <aside class="col-2 col-sm-1 col-md-2 col-lg-1 d-flex flex-column align-items-center justify-content-between px-0 py-4">
    
                 <!-- top -->
-                <div class="d-flex flex-column justify-content-between gap-3 w-75 text-center">
+                <div class="d-flex flex-column justify-content-between align-items-md-start gap-3 w-100 text-center text-lg-start px-lg-1">
 
                     <!-- home -->
-                    <a href="#" class="hover-aside">
+                    <a href="#" class="hover-aside text-decoration-none w-100">
 
-                        <i class="fa-solid fa-house"></i>
+                        <i class="fa-solid fa-house ps-1"></i>
+                        <span class="d-none d-md-inline-block ms-3 ms-lg-2">Home</span>
                     </a>
 
-                    <!-- chart -->
-                    <a href="#" class="hover-aside">
+                    <!-- stats -->
+                    <a href="#" class="hover-aside text-decoration-none w-100">
 
-                        <i class="fa-solid fa-chart-simple"></i>
+                        <i class="fa-solid fa-chart-simple ps-1"></i>
+                        <span class="d-none d-md-inline-block ms-4 ms-lg-3">Stats</span>
                     </a>
 
-                    <!-- signal -->
-                    <a href="#" class="hover-aside">
+                    <!-- signals -->
+                    <a href="#" class="hover-aside text-decoration-none w-100">
 
-                        <i class="fa-solid fa-signal"></i>
+                        <i class="fa-solid fa-signal ps-1"></i>
+                        <span class="d-none d-md-inline-block ms-3 ms-lg-2">Signals</span>
                     </a>
                 </div>                
 
                 <!-- bottom -->
-                <div class="w-75 text-center hover-aside">
+                <div class="hover-aside w-100 text-center text-lg-start px-lg-1">
 
-                    <!-- settings -->
-                    <a href="#">
+                    <!-- admin -->
+                    <a href="#" class="text-decoration-none">
 
-                        <i class="fa-solid fa-gear"></i>
+                        <i class="fa-solid fa-gear ps-1"></i>
+                        <span class="d-none d-md-inline-block ms-3 ms-lg-2">Admin</span>
                     </a>
                 </div>
                 
             </aside>
     
             <!-- MAIN -->
-            <main class="col-10 col-sm-11 p-0 overflow-y-auto bg-body-tertiary">
+            <main class="col-10 col-sm-11 col-md-10 col-lg-11 p-0 overflow-y-auto bg-body-tertiary">
     
                 <!-- head -->
                 <section id="header-main" class="row text-white d-flex flex-column flex-sm-row flex-sm-nowrap py-3 px-2 gap-3">
@@ -300,7 +322,7 @@
 
                                             <thead>
                                                 <tr>
-                                                    <th scope="col">Nome</th>
+                                                    <th class="w-50" scope="col">Nome</th>
                                                     <th scope="col" class="d-none d-sm-table-cell">Data inizio</th>
                                                     <th scope="col" class="d-none d-sm-table-cell text-uppercase">roi</th>
                                                     <th scope="col">Stato</th>

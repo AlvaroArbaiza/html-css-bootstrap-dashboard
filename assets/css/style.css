@@ -36,6 +36,7 @@ aside {
 
 aside a {
     color: white;
+    font-weight: 400;
 }
 
 aside .hover-aside:hover {
