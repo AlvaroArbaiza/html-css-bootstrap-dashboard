@@ -143,10 +143,10 @@
             <main class="col-10 col-sm-11 col-md-10 col-lg-11 p-0 overflow-y-auto bg-body-tertiary">
     
                 <!-- head -->
-                <section id="header-main" class="row text-white d-flex flex-column flex-sm-row flex-sm-nowrap py-3 px-2 gap-3">
+                <section id="header-main" class="row text-white d-flex flex-column flex-sm-row flex-sm-nowrap py-3 px-2 row-gap-3">
 
                     <!-- nuovo studente -->
-                    <div id="nuovo-studente" class="col order-3">
+                    <div id="nuovo-studente" class="col col-lg-2 order-3 text-sm-center">
 
                         <h6 class="d-inline-block">Nuovo Studente</h6>
                         
@@ -262,28 +262,28 @@
                                     <button type="submit" class="btn btn-primary fw-semibold">Salva</button>
                                     <button type="button" class="btn btn-warning fw-semibold">Svuota</button>
                                 </form>
-
                             </div>
                         </div>
-
-
-
-
-
                     </div>
 
                     <!-- boolean -->
-                    <div class="col order-1">
+                    <div class="col col-md-6 order-1">
 
                         <div>
                             <h1 class="d-inline-block fs-2">Boolean</h1>
                             <span class="badge rounded-pill bg-badge-main btn btn-secondary fw-semibold">Piano blaze</span>
                         </div>
 
+                        <!-- badges group -->
                         <div>
                             <span class="badge rounded-pill bg-badge-main btn btn-secondary fw-semibold">3 app</span>
                             <span>&#8811;</span>
-                            <span class="badge rounded-pill bg-badge-main btn btn-secondary fw-semibold">&#43;</span>
+                            <span class="badge rounded-pill bg-badge-main btn btn-secondary fw-semibold d-md-none">&#43;</span>
+
+                            <!-- hidden on mobile and tablet -->
+                            <span class="badge rounded-pill bg-badge-main btn btn-secondary fw-semibold d-none d-md-inline-block">Boolean mobile app</span>
+                            <span class="badge rounded-pill bg-badge-main btn btn-secondary fw-semibold d-none d-md-inline-block">Boolean web app</span>
+                            <span class="badge rounded-pill bg-badge-main btn btn-secondary fw-semibold d-none d-md-inline-block">Boolean blog app</span>
                         </div>
                     </div>
 
