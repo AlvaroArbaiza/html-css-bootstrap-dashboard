@@ -12,9 +12,9 @@ main {
 }
 
 
-/* HEADER */
+/* --------------- HEADER --------------- */
 
-/* barra di ricerca */
+/* search bar */
 header input#exampleDataList {
     background-color: #e5e5e5;
     font-size: small;
@@ -23,12 +23,12 @@ header input#exampleDataList::placeholder {
     font-size: 0.9rem
 }
 
-/* campanello */
+/* bell */
 header i.fa-bell {
     color: #ff8f00;
 }
 
-/* ASIDE */
+/* --------------- ASIDE --------------- */
 aside {
     background: url(../img/sidebar-bg.png);
     background-color: #051e34;
@@ -38,12 +38,16 @@ aside a {
     color: white;
 }
 
-/* MAIN */
+aside .hover-aside:hover {
+    background-color: #7e8b96;
+}
+
+/* --------------- MAIN --------------- */
 main #header-main .bg-badge-main {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* MAIN - Head */
+/* Head */
 main #header-main {
     background-color: #1b72e8;
 }
@@ -51,16 +55,18 @@ main #header-main {
 #header-main #nuovo-studente > a {
     width: 30px;
     height: 30px;
+    line-height: 26px;
 }
 
-/* MAIN - Body */
-
-/* Body - prossime classi */
-main #prossime-classi {
+/* Body */
+main #prossime-classi,
+main #f_a_q,
+main #to-do-list,
+main #card-graph {
     font-size: smaller;
 }
 
-/* Body - prossime classi - tabella annidata */
+/* Body - prossime classi - nested table */
 main #prossime-classi table tbody tr td .icona-classe::before {
     content: "\003C\002F\003E";
     display: inline-block;
@@ -73,10 +79,6 @@ main #prossime-classi table tbody tr td .icona-classe::before {
     margin-right: 0.5rem;
     color: white;
     background-color: #f26551;    
-}
-
-main #prossime-classi .container #table-father > tbody {
-    background-color: rgba(255, 255, 255, 1);
 }
 
 main #prossime-classi table .fa-solid {
