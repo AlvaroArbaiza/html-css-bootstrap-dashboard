@@ -82,8 +82,9 @@ main #prossime-classi table tbody tr td .icona-classe::before {
     background-color: #f26551;    
 }
 
-main #prossime-classi table .fa-solid {
+main #prossime-classi table .fa-solid:hover {
     cursor: pointer;
+    background-color: lightgrey;
 }
 
 main #header-main .offcanvas-end {
